@@ -2,7 +2,22 @@ body {
 	width: 100%;
 	margin: auto;
 	font-family: "Open_sans_font";
-}	
+}
+
+footer {
+	height: 152px;
+	background-image: url("../Images/bg_footer.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h2 {
+	font-size: 1.375em;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	margin: 0;
+}
 
 header {
 	height: 900px;
@@ -37,6 +52,10 @@ header p {
 	padding: 5px 5px 5px 5px;
 }
 
+li {
+	list-style: none;
+}
+
 nav {
 	width: 100%;
 	height: 90px;
@@ -61,7 +80,6 @@ nav ul{
 nav li {
 	margin: 0;
 	color: white;
-	list-style: none;
 	width: 142px;
 	height: 100%;
 	line-height: 90px;
@@ -74,6 +92,62 @@ nav li {
 nav li:hover {
 	background-color: #d31f44;
 }
+
+#Center {
+	height: 830px;
+}
+
+#Contact {
+	height: 785px;
+	background-image: url("../Images/bg_contact.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#Gen {
+	height: 480px;
+}
+
+#Gen h2 {
+	
+}
+
+#job {
+	height: 565px;
+	background-image: url("../Images/bg_job.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#Logo {
+	height: 248px;
+}
+
+#Project {
+	height: 450px;
+}
+
+#Teach {
+	height: 445px;
+	background-image: url("../Images/bg_teach.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#Testimony {
+	height: 600px;
+	background-image: url("../Images/bg_testimony.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#TitlePro {
+	height: 295px;
+	background-image: url("../Images/bg_project.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 
 @font-face {
 	font-family: "Open_sans_font";
