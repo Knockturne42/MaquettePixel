@@ -19,6 +19,15 @@ h2 {
 	margin: 0;
 }
 
+hr {
+	border-style: none;
+	width: 150px;
+	height: 3px;
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(to right, #d31f44, white);
+}
+
 header {
 	height: 900px;
 	width: 100%;
@@ -93,6 +102,10 @@ nav li:hover {
 	background-color: #d31f44;
 }
 
+span {
+	font-weight: bold;
+}
+
 #Center {
 	height: 830px;
 }
@@ -106,11 +119,56 @@ nav li:hover {
 
 #Gen {
 	height: 480px;
+	font-size: 0.625em;
+}
+
+#GenContent {
+	display: flex;
+	margin-left: 190px;
 }
 
 #Gen h2 {
-	
+	margin-top: 70px;
 }
+
+#GenC {
+	margin-top: 70px;
+	justify-content: center;
+}
+
+#GenL {
+	width: 485px;
+	margin-top: 130px;
+	justify-content: left;
+}
+
+#GenL p {
+	margin: 0px 0px 20px 0px;
+}
+
+#GenR {
+	margin-top: 100px;
+	justify-content: right;
+	margin-left: 20px;
+	width: 459px;
+}
+
+#GenR li::before {
+	content: "•";
+	color: red;
+	padding-right: 5px;
+}
+
+#Genr ul {
+	margin: 0;
+	padding: 0;
+}
+
+#GenR p {
+	margin-bottom: 20px;
+}
+
+
 
 #job {
 	height: 565px;
