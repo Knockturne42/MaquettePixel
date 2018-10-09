@@ -5,7 +5,7 @@ body {
 }	
 
 header {
-	height: 898px;
+	height: 900px;
 	width: 100%;
 	background-image: url("../Images/bg_header.png");
 	background-repeat: no-repeat;
@@ -15,19 +15,26 @@ header {
 header a{
 	display: flex;
 	justify-content: center;
+	margin-top: 50px;
 }
 
 header h1 {
-	font-size: 3.1875em;
+	font-size: 3.05em;
 	color: white;
 	text-align: center;
-	padding-top: 220px; 
+	font-weight: 600;
+	margin-top: 285px;
+	margin-bottom: 0px; 
 }
 
 header p {
 	color: white;
-	font-size: 2.3125em;
+	font-size: 2.2em;
+	font-weight: 300;
 	background-color: rgba(255, 255, 255, 0.15);
+	text-align: center;
+	margin: 20px 410px 0px 410px;
+	padding: 5px 5px 5px 5px;
 }
 
 nav {
@@ -40,6 +47,9 @@ nav {
 nav img {
 	width: 175px;
 	height: 50px;
+	padding: 20px 0px 20px 0px;
+	margin-left: 360px;
+	margin-right: 260px;
 }
 
 nav ul{
@@ -49,12 +59,13 @@ nav ul{
 }
 
 nav li {
+	margin: 0;
 	color: white;
 	list-style: none;
-	width: 149px;
+	width: 142px;
 	height: 100%;
 	line-height: 90px;
-	font-size: 0.8125em;
+	font-size: 0.8em;
 	text-transform: uppercase;
 	text-align: center;
 	justify-content: space-between;
