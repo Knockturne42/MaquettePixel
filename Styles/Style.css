@@ -307,8 +307,46 @@ span {
 	padding-top: 50px;
 }
 
+#PContent {
+	width: 565px;
+}
+
 #Project {
 	height: 450px;
+	display: flex;
+	justify-content: center;
+}
+
+#Project h2 {
+	padding-top: 61px;
+	padding-left: 40px;
+}
+
+#Project hr {
+	margin: 15px 0px 32px 40px;
+}
+
+#Project img {
+	width: 600px;
+	height: 305px;
+	padding-top: 80px;
+}
+
+#Project li{
+	font-size: 0.8em;
+	padding-bottom: 7px;
+}
+
+#Project li::before {
+	content: "•";
+	color: red;
+	padding-right: 5px;
+}
+
+#Project p {
+	padding-left: 40px;
+	padding-bottom: 12px;
+	font-size: 0.8em;
 }
 	
 #Teach {
