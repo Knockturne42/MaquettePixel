@@ -119,15 +119,15 @@ span {
 	font-weight: 600;
 }
 
-#Gen hr {
-	display: flex;
-	justify-content: center;
-}
-
 #Gen h2 {
 	padding-top: 3%;
 	margin-bottom: 20px;
 	text-align: center;
+}
+
+#Gen hr {
+	display: flex;
+	justify-content: center;
 }
 
 #GenC {
@@ -204,9 +204,36 @@ span {
 #Teach h2 {
 	text-align: center;
 	color: white;
+	padding-top: 65px;
 }
 
-#Teach
+#Teach hr {
+	margin-top: 20px;
+	background-image: linear-gradient(to right, rgba(255, 255, 255,1), rgba(255, 255, 255,0));
+}
+
+#Teach li {
+	width: 200px;
+	margin-right: 2.4%;
+	display: flex;
+	flex-direction: column;
+}
+
+#Teach li img {
+}
+
+#Teach li p {
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	margin-top: 50px;
+}
+
+#Teach ul {
+	display: flex;
+	justify-content: center;
+	padding-top: 2.5%;
+}
 
 #Testimony {
 	height: 600px;
