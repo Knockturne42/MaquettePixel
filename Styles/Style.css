@@ -168,6 +168,27 @@ span {
 
 #Center {
 	height: 830px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 360px;
+}
+
+#Center h2 {
+	margin: 0 0 26px 42px;
+}
+
+#Center hr {
+	margin: 0 0 65px 44px;
+}
+
+#Center ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#Center li {
+	margin: 0 10px 5px 0px;
 }
 
 #Contact {
@@ -260,7 +281,7 @@ span {
 
 #InscriptionButton a:hover {
 	background-image: linear-gradient(to right, #d31f43, #9c0020);
-	border: 2px solid white;
+	border-image: linear-gradient(to right, #d31f43, #9c0020);
 }
 
 #JContain {
@@ -348,6 +369,31 @@ span {
 	padding-bottom: 12px;
 	font-size: 0.8em;
 }
+
+#TContent {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+}
+
+#TContent p {
+	margin-bottom: 50px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#TContent #THead {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#TImg {
+	margin-left: 77%;
+	margin-top: 30px;
+}
 	
 #Teach {
 	height: 445px;
@@ -395,6 +441,19 @@ span {
 	background-image: url("../Images/bg_testimony.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+#Testimony hr {
+	margin: 20px 0px 40px 0;
+	background-image: linear-gradient(to right, rgba(255, 255, 255,1), rgba(255, 255, 255,0));
+}
+
+#Testimony img {
+	width: 51px;
+	height: 39px;
 }
 
 #TitlePro {
@@ -414,4 +473,10 @@ span {
 	font-size: 2.2em;
 	font-weight: 300;
 	padding-top: 40px;
+}
+
+#TText {
+	width: 1201px;
+	font-size: 1.34em;
+	font-weight: 300;
 }
