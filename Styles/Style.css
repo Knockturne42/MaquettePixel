@@ -1,3 +1,67 @@
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: bold;
+	src: url('../Examples/Open_sans_font/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: bold;
+	font-style: italic;
+	src: url('../Examples/Open_sans_font/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: 800;
+	src: url('../Examples/Open_sans_font/OpenSans-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: 800;
+	font-style: italic;
+	src: url('../Examples/Open_sans_font/OpenSans-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-style: italic;
+	src: url('../Examples/Open_sans_font/OpenSans-Italic.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: 300;
+	src: url('../Examples/Open_sans_font/OpenSans-Light.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: 300;
+	font-style: italic;
+	src: url('../Examples/Open_sans_font/OpenSans-LightItalic.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: normal;
+	src: url('../Examples/Open_sans_font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: 600;
+	src: url('../Examples/Open_sans_font/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: "Open_sans_font";
+	font-weight: 600;
+	font-style: italic;
+	src: url('../Examples/Open_sans_font/OpenSans-SemiBoldItalic.ttf');
+}
+
 body {
 	width: 100%;
 	margin: auto;
@@ -79,7 +143,6 @@ nav img {
 
 nav ul{
 	display: flex;
-	flex-direction: row;
 	margin: 0;
 }
 
@@ -177,7 +240,42 @@ span {
 	margin-bottom: 20px;
 }
 
+#InscriptionButton {
+	width: 196px;
+	height: 45px;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 45px;
+}
 
+
+
+#InscriptionButton a:link, a:visited{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	border: 2px solid white;
+	color: white;
+}
+
+#InscriptionButton a:hover {
+	background-image: linear-gradient(to right, #d31f43, #9c0020);
+	border: 2px solid white;
+}
+
+#JContain {
+	justify-content: center;
+	flex-direction: column;
+	width: 600px;
+	height: 100%;
+	color: white;
+}
+
+#JContain p {
+	width: 540px;
+	font-size: 0.87em;
+	margin: 0;
+}
 
 #Job {
 	height: 565px;
@@ -185,22 +283,34 @@ span {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	display: flex;
+	justify-content: center;
 }
 
-#Job div {
-	justify-content: center;
-	flex-direction: column;
-	width: 600px;
+#Job h2 {
+	margin-top: 50px;
+}
+
+#Job hr {
+	margin: 20px 0px 40px 0;
+	background-image: linear-gradient(to right, rgba(255, 255, 255,1), rgba(255, 255, 255,0));
+}
+
+#Job iframe {
+	margin-top: 130px;
 }
 
 #Logo {
 	height: 248px;
 }
 
+#MonP {
+	padding-top: 50px;
+}
+
 #Project {
 	height: 450px;
 }
-
+	
 #Teach {
 	height: 445px;
 	background-image: url("../Images/bg_teach.png");
@@ -254,69 +364,4 @@ span {
 	background-image: url("../Images/bg_project.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-}
-
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: bold;
-	src: url('../Examples/Open_sans_font/OpenSans-Bold.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: bold;
-	font-style: italic;
-	src: url('../Examples/Open_sans_font/OpenSans-BoldItalic.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: 800;
-	src: url('../Examples/Open_sans_font/OpenSans-ExtraBold.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: 800;
-	font-style: italic;
-	src: url('../Examples/Open_sans_font/OpenSans-ExtraBoldItalic.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-style: italic;
-	src: url('../Examples/Open_sans_font/OpenSans-Italic.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: 300;
-	src: url('../Examples/Open_sans_font/OpenSans-Light.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: 300;
-	font-style: italic;
-	src: url('../Examples/Open_sans_font/OpenSans-LightItalic.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: normal;
-	src: url('../Examples/Open_sans_font/OpenSans-Regular.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: 600;
-	src: url('../Examples/Open_sans_font/OpenSans-SemiBold.ttf');
-}
-
-@font-face {
-	font-family: "Open_sans_font";
-	font-weight: 600;
-	font-style: italic;
-	src: url('../Examples/Open_sans_font/OpenSans-SemiBoldItalic.ttf');
 }
