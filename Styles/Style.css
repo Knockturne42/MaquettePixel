@@ -26,7 +26,7 @@ header {
 	background-size: 100%;
 }
 
-header a{
+header a:last-child{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
@@ -72,7 +72,7 @@ nav {
 nav img {
 	width: 175px;
 	height: 50px;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px;
 	margin-left: 360px;
 	margin-right: 260px;
 }
@@ -179,11 +179,18 @@ span {
 
 
 
-#job {
+#Job {
 	height: 565px;
 	background-image: url("../Images/bg_job.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	display: flex;
+}
+
+#Job div {
+	justify-content: center;
+	flex-direction: column;
+	width: 600px;
 }
 
 #Logo {
@@ -215,11 +222,11 @@ span {
 #Teach li {
 	width: 200px;
 	margin-right: 2.4%;
-	display: flex;
-	flex-direction: column;
+	justify-content: center;
 }
 
 #Teach li img {
+	margin-left: 60px;
 }
 
 #Teach li p {
