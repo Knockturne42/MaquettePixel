@@ -73,6 +73,27 @@ footer {
 	background-image: url("../Images/bg_footer.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+footer a:link, a:visited {
+	text-decoration: none;
+}
+
+footer hr {
+	width: 1px;
+	height: 20px;
+	margin: 0 5px;
+	padding: 0;
+	background-image: linear-gradient(to right, white, white);
+}
+
+footer ul {
+	margin-left: 50%;
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
 }
 
 h2 {
@@ -311,6 +332,12 @@ textarea {
 	padding-top: 20px;
 }
 
+#FContent {
+	width: 1200px;
+	display: flex;
+	align-items: center;
+}
+
 #Gen {
 	height: 480px;
 	font-weight: 600;
@@ -442,6 +469,7 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-right: 1%;
 }
 
 #MonP {
