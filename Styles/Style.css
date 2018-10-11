@@ -64,6 +64,7 @@
 
 a:link, a:visited {
 	text-decoration: none;
+	color: white;
 }
 
 body {
@@ -620,10 +621,6 @@ textarea {
 #Testimony a:hover {
 	background-image: linear-gradient(to right, #d31f43, #9c0020);
 	border-image: linear-gradient(to right, #d31f43, #9c0020);
-}
-
-#Testimony a:link, a:visited {
-	text-decoration: none;
 }
 
 #Testimony hr {
