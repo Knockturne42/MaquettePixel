@@ -107,18 +107,20 @@
 			<p>Nos formations Access Code School permettent d'obtenir un <span>Titre professionnel de Niveau III</span> de Développeur logiciel ou de Designer Web.</p>
 		</div>
 		<div id="Center">
-			<h2>nos centres de formation</h2>
-				<hr>
-				<ul>
-					<li><a href=""><img src="./Images/besancon.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/dijon.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/vesoul.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/chalon.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/belfort.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/ions.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/nevers.png" alt=""></a></li>
-					<li><a href=""><img src="./Images/dakar.png" alt=""></a></li>
-				</ul>
+			<div id="CeContent">
+				<h2>nos centres de formation</h2>
+					<hr>
+					<ul>
+						<li><a href=""><img src="./Images/besancon.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/dijon.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/vesoul.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/chalon.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/belfort.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/ions.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/nevers.png" alt=""></a></li>
+						<li><a href=""><img src="./Images/dakar.png" alt=""></a></li>
+					</ul>
+			</div>
 		</div>
 		<div id="Testimony">
 			<div id="TContent">
@@ -138,19 +140,38 @@
 			</div>
 		</div>
 		<div id="Contact">
-			<h2>contact</h2>
-				<hr>
-				<form action="">
-					<input type="text" name="lastname" value="nom *">
-					<input type="text" name="firstname" value="prénom *">
-					<input type="text" name="mail" value="email *">
-					<input type="text" name="postal" value="code postal *">
-					<input type="text" name="city" value="ville *">
-					<input type="text" name="message" value="message *">
-					<input type="submit" name="submit" value="Envoyer">
-					<p>Devenez un professionnel du web et rejoignez une communauté d'élèves motivés aux parcours différents. Les inscriptions sont ouvertes.</p>
-					<p>Prochaines promotions courant 2018, <span>inscrivez-vous dès maintenant !</span></p>
-				</form>
+			<div id="CContent">
+				<h2>contact</h2>
+					<hr id="CHr">
+					<form action="" id="form">
+						<div id="CForm">
+							<div>
+								<input type="text" name="lastname" value="nom *" onfocus="this.value=''">
+							</div>
+							<div>
+								<input type="text" name="firstname" value="prénom *" onfocus="this.value=''">
+							</div>
+							<div>
+								<input type="text" name="mail" value="email *" onfocus="this.value=''">
+							</div>
+							<div>
+								<input type="text" name="postal" value="code postal *" onfocus="this.value=''">
+							</div>
+							<div>
+								<input type="text" name="city" value="ville *" onfocus="this.value=''">
+							</div>
+						</div>
+						<div id="CText">
+							<p>Devenez un professionnel du web et rejoignez une communauté d'élèves motivés aux parcours différents. Les inscriptions sont ouvertes.</p>
+							<p>Prochaines promotions courant 2018, <span>inscrivez-vous dès maintenant !</span></p>
+						</div>
+						<div id="CMess">
+							<label for="message">Message *</label>
+							<textarea name="message" id="form" cols="30" rows="10"></textarea>
+							<input type="submit" name="submit" value="Envoyer">
+						</div>
+					</form>
+			</div>
 		</div>
 		<div id="Logo">
 			<ul>

@@ -171,23 +171,27 @@ span {
 	font-weight: bold;
 }
 
+#CeContent {
+	width: 1200px;
+	flex-direction: column;
+}
+
 #Center {
 	height: 830px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	margin: 0 360px;
 }
 
 #Center h2 {
-	margin: 0 0 26px 42px;
+	margin: 60px 0 26px 0;
 }
 
 #Center hr {
-	margin: 0 0 65px 44px;
+	margin: 0 0 70px 0;
 }
 
 #Center ul {
+	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -196,11 +200,73 @@ span {
 	margin: 0 10px 5px 0px;
 }
 
+#CContent {
+	flex-wrap: wrap;
+	width: 1200px;
+}
+
+#CContent h2 {
+	padding-top: 60px;
+}
+
+#CContent form input{
+	border: none;
+	width: 250px;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 1px solid white;
+}
+
+#CContent form input:focus{
+	outline: none;
+}
+
+#CContent input[name=mail] {
+	width: 550px;
+}
+
+#CForm {
+	display: flex;
+	flex-wrap: wrap;
+	width: 600px;
+}
+
+#CForm div {
+	height: 50px;
+	margin-right: 50px;
+}
+
+#CHr {
+	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 75px;
+	background-image: linear-gradient(to right, rgba(255, 255, 255,1), rgba(255, 255, 255,0));
+}
+
 #Contact {
 	height: 785px;
 	background-image: url("../Images/bg_contact.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+#CMess {
+	display: flex;
+	flex-direction: column;
+}
+
+#CMess textarea {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#CText {
+	width: 543px;
+	font-weight: 300;
+	font-size: 0.8em;
 }
 
 #Gen {
