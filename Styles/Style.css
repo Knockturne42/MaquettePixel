@@ -206,35 +206,7 @@ textarea {
 	height: 195px;
 	width: 1200px;
 	outline: none;
-}
-
-#CeContent {
-	width: 1200px;
-	flex-direction: column;
-}
-
-#Center {
-	height: 830px;
-	display: flex;
-	justify-content: center;
-}
-
-#Center h2 {
-	margin: 60px 0 26px 0;
-}
-
-#Center hr {
-	margin: 0 0 70px 0;
-}
-
-#Center ul {
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-#Center li {
-	margin: 0 10px 5px 0px;
+	color: white;
 }
 
 #CContent {
@@ -268,6 +240,40 @@ textarea {
 
 #CContent input[name=mail] {
 	width: 550px;
+}
+
+#CeContent {
+	width: 1200px;
+	flex-direction: column;
+}
+
+#Center {
+	height: 830px;
+	display: flex;
+	justify-content: center;
+}
+
+
+#CeContent a:link, a:visited {
+	text-decoration: none;
+}
+
+#Center h2 {
+	margin: 60px 0 26px 0;
+}
+
+#Center hr {
+	margin: 0 0 70px 0;
+}
+
+#Center ul {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#Center li {
+	margin: 0 10px 10px 0px;
 }
 
 #CForm {
@@ -657,49 +663,51 @@ textarea {
 	background-color: blue;
 }
 
-#CeContent a:link, a:visited {
-	text-decoration: none;
-}
-
-#Bes {
+#VBes {
 	background-image: url("../Images/besancon.png");
 }
 
-#Dij {
+#VDij {
 	background-image: url("../Images/dijon.png");
 }
 
-#Ves {
+#VVes {
 	background-image: url("../Images/vesoul.png");
 }
 
-#Cha {
+#VCha {
 	background-image: url("../Images/chalon.png");
 }
 
-#Bel {
+#VBel {
 	background-image: url("../Images/belfort.png");
 }
 
-#Ion {
+#VIon {
 	background-image: url("../Images/ions.png");
 }
 
-#Nev {
+#VNev {
 	background-image: url("../Images/nevers.png");
 }
 
-#Dak {
+#VDak {
 	background-image: url("../Images/dakar.png");
 }
 
-#Dak p {
+.Ville p {
+	text-align: center;
+	line-height: 275px;
 	color: rgba(255, 255, 255, 0);
 	width: 100%;
 	height: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.5em;
+	margin: 0;
 }
 
-#Dak:hover p {
+.Ville:hover p {
 	color: white;
 	width: 100%;
 	height: 100%;
