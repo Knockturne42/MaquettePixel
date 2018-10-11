@@ -437,6 +437,13 @@ textarea {
 	height: 248px;
 }
 
+#Logo ul {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 #MonP {
 	padding-top: 50px;
 }
