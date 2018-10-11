@@ -90,10 +90,15 @@ header {
 	background-size: 100%;
 }
 
-header a:last-child{
-	display: flex;
-	justify-content: center;
+header button{
+	width: 196px;
+	height: 45px;
+	background-image: linear-gradient(to right, #d31f43, #9c0020);
+	border: none;
+	color: white;
 	margin-top: 50px;
+	margin-left: 45%;
+	font-weight: 300;
 }
 
 header h1 {
@@ -444,6 +449,24 @@ span {
 	color: white;
 	display: flex;
 	justify-content: center;
+}
+
+#Testimony a {
+	width: 196px;
+	height: 45px;
+	border: 2px solid white;
+	text-align: center;
+	line-height: 45px;
+	font-size: 0.8em;
+}
+
+#Testimony a:hover {
+	background-image: linear-gradient(to right, #d31f43, #9c0020);
+	border-image: linear-gradient(to right, #d31f43, #9c0020);
+}
+
+#Testimony a:link, a:visited {
+	text-decoration: none;
 }
 
 #Testimony hr {
