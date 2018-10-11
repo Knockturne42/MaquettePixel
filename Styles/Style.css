@@ -62,6 +62,10 @@
 	src: url('../Examples/Open_sans_font/OpenSans-SemiBoldItalic.ttf');
 }
 
+a:link, a:visited {
+	text-decoration: none;
+}
+
 body {
 	width: 100%;
 	margin: auto;
