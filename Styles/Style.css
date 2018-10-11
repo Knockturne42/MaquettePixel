@@ -386,8 +386,12 @@ textarea {
 	width: 459px;
 }
 
+#GenR li {
+	padding: 0 0 5px 0;
+}
+
 #GenR li::before {
-	content: "•";
+	content: url("../Images/puces.png");
 	color: red;
 	padding-right: 5px;
 }
@@ -503,11 +507,11 @@ textarea {
 
 #Project li{
 	font-size: 0.8em;
-	padding-bottom: 7px;
+	padding: 7px 0 0 0;
 }
 
 #Project li::before {
-	content: "•";
+	content: url("../Images/puces.png");
 	color: red;
 	padding-right: 5px;
 }
@@ -645,4 +649,59 @@ textarea {
 	width: 1201px;
 	font-size: 1.34em;
 	font-weight: 300;
+}
+
+.Ville {
+	width: 275px;
+	height: 275px;
+	background-color: blue;
+}
+
+#CeContent a:link, a:visited {
+	text-decoration: none;
+}
+
+#Bes {
+	background-image: url("../Images/besancon.png");
+}
+
+#Dij {
+	background-image: url("../Images/dijon.png");
+}
+
+#Ves {
+	background-image: url("../Images/vesoul.png");
+}
+
+#Cha {
+	background-image: url("../Images/chalon.png");
+}
+
+#Bel {
+	background-image: url("../Images/belfort.png");
+}
+
+#Ion {
+	background-image: url("../Images/ions.png");
+}
+
+#Nev {
+	background-image: url("../Images/nevers.png");
+}
+
+#Dak {
+	background-image: url("../Images/dakar.png");
+}
+
+#Dak p {
+	color: rgba(255, 255, 255, 0);
+	width: 100%;
+	height: 100%;
+}
+
+#Dak:hover p {
+	color: white;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(211, 31, 68, 0.7);
 }
